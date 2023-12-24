@@ -17,8 +17,8 @@ const Request:FC<props> = ({Request_discrption , Request_img , Request_titel  , 
       <div className="d-flex align-items-center gap-2">
         <img src={userInfo.profileImg} alt="" />
         <div>
-          <span>{userInfo.username}</span>
-          <p>{userInfo.user_location} </p>
+          <span className="username">{userInfo.username}</span>
+          <p className="user_location">{userInfo.user_location} </p>
         </div>
       </div>
       <h1>{Request_titel}</h1>
