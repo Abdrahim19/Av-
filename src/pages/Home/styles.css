@@ -1,0 +1,38 @@
+/* hero */
+.hero_titel {
+color: #000;
+text-align: center;
+font-family: Inter;
+font-size: 2.5rem;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+}
+
+.hero_img {
+max-width: 44.8125rem;
+max-height: 40rem;
+margin-left: -5rem;
+}
+
+/* Heilighta_App */
+.pargraf {
+    color: #FFF;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    }
+    .wraaper {
+        background-color: var(--primery-600);
+    }
+
+
+/* Requests */
+
+.Request_titel {
+font-size: 2.25rem;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
