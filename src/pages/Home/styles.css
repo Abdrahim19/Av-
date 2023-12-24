@@ -11,10 +11,10 @@ max-width: 50rem;
 }
 
 .hero_img {
-width: calc(100vw + 64px);
-max-height: 40rem;
-margin-left: -5rem;
-}
+    max-width: 36.5rem;
+    max-height: 59.3125rem;
+    margin-left: -5rem;
+    }
 
 /* Heilighta_App */
 .pargraf {

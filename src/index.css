@@ -24,4 +24,10 @@ body {
   line-height: normal;
   max-width: 70rem;
   }
+
+  .hero_img {
+    max-width: 36.5rem;
+    max-height: 59.3125rem;
+    margin-left: -5rem;
+    }
  

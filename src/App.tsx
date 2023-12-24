@@ -11,8 +11,6 @@ function App() {
     <main className='W-full over-flow-hiiden'>
       <Navbar />
       <Hero />
-      <Heilighta_App />
-      <Requests />
     </main>
   )
 }
