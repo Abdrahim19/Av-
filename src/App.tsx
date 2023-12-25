@@ -1,8 +1,6 @@
 import Navbar from './components/Header/Navbar';
 import Hero from './pages/Home/hero/Hero';
-
-
-
+import './index.css'
 
 
 function App() {
