@@ -23,7 +23,7 @@ font-style: normal;
 font-weight: 800;
 line-height: normal;
 margin:  0 auto 27px ;
-max-width: 30rem;
+max-width: 32rem;
 @media (max-width: 767px) {
   font-size: 1.7rem;
 }
