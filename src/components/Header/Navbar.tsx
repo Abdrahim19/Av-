@@ -1,4 +1,4 @@
-import { Link, NavLink } from "react-router-dom"
+import { Link } from "react-router-dom"
 import  "./Header.Modules.css";
 import { IoMenuSharp } from "react-icons/io5";
 import { navlinks } from "../../data/navlinks";
