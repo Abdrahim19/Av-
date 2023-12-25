@@ -19,7 +19,7 @@ const Navbar = () => {
     
 
   return (
-    <Container fluid='lg py-4'>
+    
     <nav style={{marginBottom:'5.55rem'}} className="d-flex align-items-center justify-content-between">
         <h1 className='titel d-none d-lg-block user-select-none'>Qui est AVE?</h1>
         <Link to='/'>
@@ -32,11 +32,12 @@ const Navbar = () => {
                 </p> 
             ))}
         </ul>
-            <IoMenuSharp className="d-block mobile_menu d-lg-none user-select-none"
+        <div className="d-lg-none d-flex">
+            <IoMenuSharp className="d-block d-lg-none user-select-none"
              onClick={memoizedHandleClick}  size={40} />
+            <Mobilemenu Isblock={toggle} onClick={memoizedHandleClick}/>
+        </div>
     </nav>
-            <Mobilemenu Isblock={toggle} />
-    </Container>
   )
 }
  

@@ -1,0 +1,20 @@
+.second_titel {
+color: #000;
+text-align: center;
+font-size: 2.8125rem;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+@media (max-width: 767px) {
+    font-size: 2rem; /* Adjust the font size for smaller screens */
+  }
+}
+
+.second_discrption {
+color: #000;
+text-align: center;
+font-size: 1.375rem;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
