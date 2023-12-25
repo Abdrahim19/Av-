@@ -7,6 +7,11 @@ object-fit: cover;
   }
 }
 
+.heroimg_container  {
+  @media (max-width: 771px) {
+    margin-top: 3rem;
+  }
+}
 
 
 

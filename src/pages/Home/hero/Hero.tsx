@@ -8,7 +8,7 @@ de prestations de services de haute qualité en Suisse.</h1>
     <div  style={{gap:'15rem'}} className='d-flex flex-column justify-content-between'>
 <section className="hero_container d-flex flex-column-reverse justify-content-between flex-xl-row 
 align-items-xl-center gap-3">
-  <div className='heroimg_container justify-content-start col-xl-5'>
+  <div className='heroimg_container col-xl-5'>
 <img  src="/téléchargement.png" alt="hero_img" className="hero_img" />
   </div>
 <div className='col-xl-7 flex flex-col justify-content-center '>
