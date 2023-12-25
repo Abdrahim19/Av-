@@ -26,9 +26,9 @@ const Navbar = () => {
         </Link>
         <ul className="d-none d-lg-flex align-items-center gap-4">
             {navlinks.map((link) => (
-                <NavLink className='NavLink link-opacity-50' to={link.path}>
+                <p className='NavLink link-opacity-50'>
                     {link.name}
-                </NavLink> 
+                </p> 
             ))}
         </ul>
         <div className="d-lg-none d-flex">
