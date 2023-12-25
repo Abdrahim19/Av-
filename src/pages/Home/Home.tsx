@@ -1,4 +1,4 @@
-import Heilighta_App from "./Heilighta_App"
+import Heilighta_App from "./heilighta_App/Heilighta_App"
 import Hero from "./Hero"
 
 const Home = () => {
