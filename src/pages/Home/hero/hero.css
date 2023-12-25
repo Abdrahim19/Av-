@@ -1,8 +1,8 @@
 .hero_img {
-width:100%;
+width: 100%;
 height: 100%;
+object-fit: cover;
 }
-
 
 .second_titel {
 color: #000;
@@ -24,4 +24,7 @@ font-size: 1.375rem;
 font-style: normal;
 font-weight: 500;
 line-height: normal;
+}
+.hero_container {
+    gap: 4rem;
 }
