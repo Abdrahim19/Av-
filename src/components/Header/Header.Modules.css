@@ -1,3 +1,9 @@
+nav {
+    margin-bottom:5.55rem;
+    @media (max-width:991px) {
+        margin-bottom: 1.5rem;
+    }
+}
 .titel {
 color: #000;
 text-align: center;

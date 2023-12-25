@@ -24,6 +24,9 @@ font-weight: 800;
 line-height: normal;
 margin:  0 auto 27px ;
 max-width: 30rem;
+@media (max-width: 767px) {
+  font-size: 1.7rem;
+}
 }
 
 .second_discrption {
@@ -47,5 +50,6 @@ line-height: normal;
 max-width: 65rem;
   @media (max-width: 767px) {
       margin-bottom: 3rem;
+      font-size: 25px;
     }
   }

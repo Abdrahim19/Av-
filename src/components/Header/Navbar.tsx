@@ -19,7 +19,7 @@ const Navbar = () => {
 
   return (
     
-    <nav style={{marginBottom:'5.55rem'}} className="d-flex align-items-center justify-content-between">
+    <nav  className="d-flex align-items-center justify-content-between">
         <h1 className='titel d-none d-lg-block user-select-none'>Qui est AVE?</h1>
         <Link to='/'>
         <img className="logo user-select-none" src="/jpg file.jpg" loading="lazy" alt="site_logo" />
