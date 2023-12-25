@@ -11,18 +11,7 @@ body {
 
 
     /* hero */
-.hero_titel {
-  color: #000;
-  font-size: 40px;
-  font-style: normal;
-  font-weight: 900;
-  line-height: normal;
-  
-@media (max-width: 767px) {
-    font-size: 25px; /* Adjust the font size for smaller screens */
-    margin-bottom: 3rem;
-  }
-}
+
   
   /* Heilighta_App */
   .pargraf {

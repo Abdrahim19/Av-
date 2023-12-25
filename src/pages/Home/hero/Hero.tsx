@@ -1,13 +1,15 @@
 import './hero.css'
 const Hero = () => {
   return (
-    <div className='w-100 h-screen'>
+    <>
         <h1 className="hero_titel text-center mb-4">
-          Service N1, leader incontesté dans la fourniture <br />
+          Service N1, leader incontesté dans la fourniture
 de prestations de services de haute qualité en Suisse.</h1>
-<section className="hero_container d-flex flex-column-reverse justify-content-between flex-lg-row align-items-center gap-3">
-  <div className='heroimg_container col-xl-5'>
-<img  src="/peinture_noire.png" alt="hero_img" className="hero_img" />
+    <div  style={{gap:'15rem'}} className='d-flex flex-column justify-content-between'>
+<section className="hero_container d-flex flex-column-reverse justify-content-between flex-xl-row 
+align-items-xl-center gap-3">
+  <div className='heroimg_container justify-content-start col-xl-5'>
+<img  src="/téléchargement.png" alt="hero_img" className="hero_img" />
   </div>
 <div className='col-xl-7 flex flex-col justify-content-center '>
   <h1 className="second_titel">Prestations de services et location de  matériel</h1>
@@ -19,6 +21,7 @@ de prestations de services de haute qualité en Suisse.</h1>
 </div>
 </section>
     </div>
+    </>
   )
 } 
 
