@@ -17,3 +17,7 @@ font-style: normal;
 font-weight: 500;
 line-height: normal;
 }
+
+.content {
+    padding: 3.75rem;
+}

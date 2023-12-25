@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom"
+import { Link, NavLink } from "react-router-dom"
 import  "./Header.Modules.css";
 import { IoMenuSharp } from "react-icons/io5";
 import { navlinks } from "../../data/navlinks";
@@ -26,9 +26,9 @@ const Navbar = () => {
         </Link>
         <ul className="d-none d-lg-flex align-items-center gap-4">
             {navlinks.map((link) => (
-                <p className='NavLink '>
+                <NavLink className='NavLink link-opacity-50' to={link.path}>
                     {link.name}
-                </p> 
+                </NavLink> 
             ))}
         </ul>
         <div className="d-lg-none d-flex">
